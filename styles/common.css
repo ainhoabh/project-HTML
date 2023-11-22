@@ -1,0 +1,191 @@
+/* Common styles */
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+}
+
+
+/* Nav-bar styles */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-bar > .logo {
+    width: 175px;
+    margin-left: 20px;
+}
+
+.nav-bar > .logo img {
+    height: 35px;
+    width: 100%;
+}
+
+.nav-bar > .nav-link-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.nav-bar > .nav-link-wrapper > .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.nav-bar > .nav-link-wrapper > .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bolder;
+    letter-spacing: -1px;
+}
+
+.nav-bar > .nav-link-wrapper > .nav-links .spark {
+    margin-left: 30px;
+}
+
+.nav-bar > .nav-link-wrapper > .nav-links .spark a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 200;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.nav-bar > .nav-link-wrapper > .nav-links .spark i {
+    margin-left: 10px;
+}
+
+.nav-bar > .profile-section {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+.nav-bar > .profile-section > .profile-btn button {
+    color: white;
+    font-size: 1.3em;
+    background-color: #4c4f5a;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    padding: 15px 20px;
+}
+
+.nav-bar > .profile-section .search-icon {
+    font-size: 2em;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* Content styles */
+
+.content-wrapper {
+    background: linear-gradient(120deg, #4c4f5a, #202125);
+    display: flex;
+    height: 375px;
+}
+
+.content > h1 {
+    font-size: 1.9em;
+    font-weight: 100;
+    color: lightgray;
+    letter-spacing: 0.5px;
+}
+
+.content > p {
+    font-size: 1.7em;
+    color: lightgray;
+}
+
+.content > h1 .highlight {
+    font-weight: bold;
+    color: white;
+    font-size: 1.2em;
+}
+
+.content-wrapper > .call-for-action {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.content-wrapper > .call-for-action > .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.content-wrapper > .call-for-action > .button-wrapper .signup-button button {
+    background: #4bce79;
+    color: black;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    width: 200px;
+    height: 55px;
+}
+
+.content-wrapper > .call-for-action > .button-wrapper .learnmore-button button {
+    background: black;
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    width: 150px;
+    height: 55px;
+}
+
+.content-wrapper > .sample-project {
+    width: 700px;
+    padding-left: 30px;
+    height: 100%;
+}
+
+.content-wrapper > .sample-project h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.content-wrapper > .sample-project h1 > .highlight2 {
+    color: lightskyblue;
+}
+
+.content-wrapper > .sample-project > .project-img img {
+    height: 325px;
+    width: 450px;
+}
+
+/* Footer styles */
+
+.footer-wrapper {
+    display: flex;
+    height: 100%;
+    font-weight: bold;
+    font-size: 1.2em;
+    background: #36383f;
+    justify-content: center;
+}
+
+.footer-wrapper a {
+    display: flex;
+    border: 1.5px solid #676767;
+    padding: 20px 45px;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+    width: 100%;
+}
